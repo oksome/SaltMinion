@@ -1,7 +1,13 @@
 SaltMinion
 ==========
 
-Dockerfile to create Minimalist Salt Minion.
+Docker container with a Minimalist Salt Minion, based on Debian Stable.
+
+´docker pull okso/saltminion´.
+
+
+Dockerfile
+---
 
 Edit the `minion` file to your needs, it will be copied to `/etc/salt/minion`.
 
