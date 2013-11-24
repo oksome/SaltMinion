@@ -1,3 +1,5 @@
+# /!\ The hostname will be added as id to this file when running the Container.
+
 master: saltmaster
 
 grains:

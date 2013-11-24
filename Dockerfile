@@ -20,4 +20,4 @@ RUN apt-get install -y salt-minion
 
 ADD ./minion /etc/salt/minion
 
-CMD rm /etc/salt/pki/minion/*; salt-minion
+CMD echo "id: "$(cat /etc/hostname) >> /etc/salt/minion; salt-minion
