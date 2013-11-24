@@ -3,7 +3,7 @@ SaltMinion
 
 Docker container with a Minimalist Salt Minion, based on Debian Stable.
 
-´docker pull okso/saltminion´
+`docker pull okso/saltminion`
 
 
 Dockerfile
